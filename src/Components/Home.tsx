@@ -1,6 +1,6 @@
 export const Home = () => {
     return (
-        <section id="home" className="bg-[url('./images/software-developer.jpg')] bg-cover pt-24 pb-10 px-4 md:px-24 md:py-32">
+        <section id="home" className="bg-[url('/images/software-developer.jpg')] bg-cover pt-24 pb-10 px-4 md:px-24 md:py-32">
             <div>
                 <div className="w-full mx-auto h-full flex flex-col md:flex-row justify-between items-center gap-4">
                     <div className="animate-fadeIn h-full xl:w-[50%] md:w-[60%] sm:w-[70%] w-full text-white flex flex-col gap-2 justify-center md:text-left text-center">
