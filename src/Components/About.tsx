@@ -29,7 +29,6 @@ export const About = () => {
                     </div>
                     <div className=" animate-slideInLeft lg:w-4/5 sm:w-3/5 md:w-1/2 md:min-w-[350px]">
                         <img className="rounded-s-full w-fit shadow-[0_0_30px_10px_rgba(0,0,0,0.1)]" src="./images/software-developer.jpg" alt="" />
-                        <img className="    w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110" src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/business-woman.png" alt="" />
                     </div>
 
                 </div>
