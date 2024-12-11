@@ -1,0 +1,45 @@
+export const Footer = () => {
+  // Handle anchor click for smooth scrolling
+  const handleAnchorClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    const targetId = e.currentTarget.getAttribute('href')!;
+    const targetElement = document.querySelector(targetId);
+
+    if (targetElement) {
+      targetElement.scrollIntoView({
+        behavior: 'smooth',
+      });
+    }
+  };
+  return (
+    <footer className="bg-gray-50 dark:bg-blue-950">
+      <div className="flex flex-col p-12 sm:p-16 justify-center gap-6 sm:gap-6 animate-fadeIn">
+        <nav className="flex justify-center flex-wrap gap-[0.7rem] sm:gap-6">
+          <a className="text-gray-600 hover:text-gray-900 dark:text-gray-50 dark:hover:text-blue-500 hover:underline hover:font-semibold transition-colors duration-300" href="#home" onClick={handleAnchorClick}>Home</a>
+          <a className="text-gray-600 hover:text-gray-900 dark:text-gray-50 dark:hover:text-blue-500 hover:underline hover:font-semibold transition-colors duration-300" href="#about" onClick={handleAnchorClick}>About</a>
+          <a className="text-gray-600 hover:text-gray-900 dark:text-gray-50 dark:hover:text-blue-500 hover:underline hover:font-semibold transition-colors duration-300" href="#projects" onClick={handleAnchorClick}>Projects</a>
+          <a className="text-gray-600 hover:text-gray-900 dark:text-gray-50 dark:hover:text-blue-500 hover:underline hover:font-semibold transition-colors duration-300" href="#skills" onClick={handleAnchorClick}>Skills</a>
+          <a className="text-gray-600 hover:text-gray-900 dark:text-gray-50 dark:hover:text-blue-500 hover:underline hover:font-semibold transition-colors duration-300" href="#contact" onClick={handleAnchorClick}>Contact</a>
+        </nav>
+        <div className="flex justify-center space-x-5">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" />
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
+          </a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
+          </a>
+          <a href="https://messenger.com" target="_blank" rel="noopener noreferrer">
+            <img src="https://img.icons8.com/fluent/30/000000/facebook-messenger--v2.png" />
+          </a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <img src="https://img.icons8.com/fluent/30/000000/twitter.png" />
+          </a>
+        </div>
+        <p className="text-center text-gray-400 dark:text-gray-300 font-medium">&copy; {new Date().getFullYear()} Company Ltd. All rights reserved.</p>
+      </div>
+    </footer>
+  )
+}
