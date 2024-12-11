@@ -25,11 +25,10 @@ export const Home = () => {
                                 <img src="https://img.icons8.com/fluent/30/000000/twitter.png" />
                             </a>
                         </div>
-                        
+
                     </div>
 
                     <div className="relative lg:w-4/5 sm:w-3/5 md:w-1/2 md:max-w-[550px] z-0">
-                        {/* <img className="rounded-lg w-fit shadow-[0_0_30px_10px_rgba(0,0,0,0.8)]" src='./images/software-developer.jpg' alt="" /> */}
                         <div className="absolute inset-0 bg-gradient-to-center from-black via-transparent to-black"
                             aria-hidden="true"
                         ></div>
