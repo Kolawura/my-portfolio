@@ -1,3 +1,4 @@
+import { Section } from "./Section";
 
 export const Projects = () => {
   return (
@@ -11,57 +12,61 @@ export const Projects = () => {
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Project 1 */}
-        <div className="animate-slideInRight bg-white dark:bg-blue-950 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:scale-105">
-          <h3 className="text-xl font-semibold mb-2 text-gray-600 dark:text-gray-50">Responsive Blog Platform</h3>
+        <Section  className="bg-white dark:bg-blue-950 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:scale-105" id={'pro1'} animationClass={'animate-slideInRight'}>
+          <><h3 className="text-xl font-semibold mb-2 text-gray-600 dark:text-gray-50">Random Quote App</h3>
           <p className="mb-4 text-gray-600 dark:text-gray-50">
-            A fully responsive blog platform built with Next.js and Tailwind CSS.
+            A simple JavaScript random quote app.
           </p>
           <a
-            href="#"
+            href="https://random-quotes-site.netlify.app/" target="_blank" rel="noopener noreferrer"
             className="text-blue-600 dark:text-blue-500 hover:underline transition-colors duration-300"
           >
             View Project →
           </a>
-        </div>
+          </>
+        </Section>
         {/* Project 2 */}
-        <div className="animate-slideInLeft bg-white dark:bg-blue-950 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:scale-105">
-          <h3 className="text-xl font-semibold mb-2 text-gray-600 dark:text-gray-50">Task Management App</h3>
+        <Section className="bg-white dark:bg-blue-950 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:scale-105" id={'pro2'} animationClass={'animate-slideInLeft'}>
+        <><h3 className="text-xl font-semibold mb-2 text-gray-600 dark:text-gray-50">Task Management App</h3>
           <p className="mb-4 text-gray-600 dark:text-gray-50">
-            A React-based task management application with drag-and-drop functionality.
+            A task management application with, edit, functionality using Typescript and TailwindCSS.
           </p>
           <a
-            href="#"
+            href="https://kolawura-todo-list.netlify.app/" target="_blank" rel="noopener noreferrer"
             className="text-blue-600 dark:text-blue-500 hover:underline transition-colors duration-300"
           >
             View Project →
           </a>
-        </div>
+          </>
+        </Section>
         {/* Project 3 */}
-        <div className="animate-slideInRight bg-white dark:bg-blue-950 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:scale-105">
-          <h3 className="text-xl font-semibold mb-2 text-gray-600 dark:text-gray-50">E-commerce Website</h3>
+        <Section className="bg-white dark:bg-blue-950 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:scale-105" id={'pro3'} animationClass={'animate-slideInRight'}>
+        <> <h3 className="text-xl font-semibold mb-2 text-gray-600 dark:text-gray-50">Product list cart</h3>
           <p className="mb-4 text-gray-600 dark:text-gray-50">
-            A full-stack e-commerce platform built with Node.js, Express, and MongoDB.
+             A product list cart using ReactJS and Tailwind CSS
           </p>
           <a
-            href="#"
+            href="https://kolawura.github.io/product-cart/" target="_blank" rel="noopener noreferrer"
             className="text-blue-600 dark:text-blue-500 hover:underline transition-colors duration-300"
           >
             View Project →
           </a>
-        </div>
+          </>
+        </Section>
         {/* Project 4 */}
-        <div className="animate-slideInLeft bg-white dark:bg-blue-950 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:scale-105">
-          <h3 className="text-xl font-semibold mb-2 text-gray-600 dark:text-gray-50">Weather Dashboard</h3>
+        <Section className="bg-white dark:bg-blue-950 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:scale-105" id={'pro4'} animationClass={'animate-slideInLeft'}>
+        <><h3 className="text-xl font-semibold mb-2 text-gray-600 dark:text-gray-50">AuDev Solution</h3>
           <p className="mb-4 text-gray-600 dark:text-gray-50">
-            A weather dashboard using OpenWeatherMap API and Chart.js for data visualization.
+            AuDev solution websites that give necessary information about the IT firm
           </p>
           <a
-            href="#"
+            href="https://au-dev.vercel.app/" target="_blank" rel="noopener noreferrer"
             className="text-blue-600 dark:text-blue-500 hover:underline transition-colors duration-300"
           >
             View Project →
           </a>
-        </div>
+          </>
+        </Section>
       </div>
     </section>
   );

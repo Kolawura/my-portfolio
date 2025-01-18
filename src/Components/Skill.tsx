@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import { Section } from "./Section";
 
 export const Skill = () => {
   const skillsSectionRef = useRef<HTMLDivElement>(null);
@@ -40,8 +41,8 @@ export const Skill = () => {
     { name: "React", percentage: "80%" },
     { name: "Typescript", percentage: "75%" },
     { name: "NextJS", percentage: "70%" },    
-    { name: "Flutter", percentage: "70%" },
     { name: "MySQL", percentage: "70%" },
+    { name: "Flutter", percentage: "50%" },
   ]
 
 
@@ -53,7 +54,7 @@ export const Skill = () => {
       style={{ animationDelay: "0.4s" }}
     >
       <h2 className="text-3xl font-bold mb-8 text-gray-800 dark:text-gray-50 animate-fadeIn">Skills</h2>
-      <div className="animate-slideUp space-y-4">
+      <Section className="space-y-4" id={'skill'} animationClass={'animate-slideUp'}>
         {skills.map((skill, index) => (
           <div key={index}>
             <div className="flex justify-between mb-1 text-gray-600 dark:text-gray-50">
@@ -69,7 +70,7 @@ export const Skill = () => {
             </div>
           </div>
         ))}
-      </div>
+      </Section>
     </section>
   );
 };

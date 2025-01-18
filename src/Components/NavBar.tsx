@@ -85,7 +85,7 @@ export const NavBar = () => {
           <div>
             <button
               id="darkModeToggle"
-              className={`${darkMode ? 'text-yellow-400 shadow-yellow-100':'text-red-500 shadow-red-100'} p-2 rounded-full text-2xl hover:font-semibold transition-colors duration-300 mr-4`}
+              className={`${darkMode ? 'text-yellow-300 shadow-yellow-100':'text-gray-800 shadow-red-100'} p-2 rounded-full text-2xl hover:font-semibold transition-colors duration-300 mr-4`}
               aria-label="Toggle dark mode"
               onClick={toggleDarkMode}
             >

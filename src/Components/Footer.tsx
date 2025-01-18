@@ -1,3 +1,6 @@
+// import { faXTwitter } from "@fortawesome/free-solid-svg-icons";
+
+
 export const Footer = () => {
   // Handle anchor click for smooth scrolling
   const handleAnchorClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
@@ -21,21 +24,15 @@ export const Footer = () => {
           <a className="text-gray-600 hover:text-gray-900 dark:text-gray-50 dark:hover:text-blue-500 hover:underline hover:font-semibold transition-colors duration-300" href="#skills" onClick={handleAnchorClick}>Skills</a>
           <a className="text-gray-600 hover:text-gray-900 dark:text-gray-50 dark:hover:text-blue-500 hover:underline hover:font-semibold transition-colors duration-300" href="#contact" onClick={handleAnchorClick}>Contact</a>
         </nav>
-        <div className="flex justify-center space-x-5">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" />
-          </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <div className="flex md:justify-start justify-center space-x-5">
+          <a href="https://www.linkedin.com/in/adekola-adediwura-17b070176" target="_blank" rel="noopener noreferrer">
             <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
+          <a href="https://github.com/Kolawura" target="_blank" rel="noopener noreferrer">
+            <img src="https://img.icons8.com/fluent/30/000000/github.png" />
           </a>
-          <a href="https://messenger.com" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.icons8.com/fluent/30/000000/facebook-messenger--v2.png" />
-          </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.icons8.com/fluent/30/000000/twitter.png" />
+          <a href="https://x.com/kolawura" target="_blank" rel="noopener noreferrer">
+            <img src="https://img.icons8.com/fluent/30/000000/twitterx.png" />
           </a>
         </div>
         <p className="text-center text-gray-400 dark:text-gray-300 font-medium">&copy; {new Date().getFullYear()} Company Ltd. All rights reserved.</p>
