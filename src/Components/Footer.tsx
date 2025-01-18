@@ -24,7 +24,7 @@ export const Footer = () => {
           <a className="text-gray-600 hover:text-gray-900 dark:text-gray-50 dark:hover:text-blue-500 hover:underline hover:font-semibold transition-colors duration-300" href="#skills" onClick={handleAnchorClick}>Skills</a>
           <a className="text-gray-600 hover:text-gray-900 dark:text-gray-50 dark:hover:text-blue-500 hover:underline hover:font-semibold transition-colors duration-300" href="#contact" onClick={handleAnchorClick}>Contact</a>
         </nav>
-        <div className="flex md:justify-start justify-center space-x-5">
+        <div className="flex justify-center space-x-5">
           <a href="https://www.linkedin.com/in/adekola-adediwura-17b070176" target="_blank" rel="noopener noreferrer">
             <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
           </a>
