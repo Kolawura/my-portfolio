@@ -12,7 +12,7 @@ export const About = () => {
                             <br className="block sm:hidden" />Adekola Adediwura
                         </h2>
                         <p className="mt-3 text-xl text-gray-600 dark:text-gray-300 md:mt-8">
-                            Hello! I’m Adekola Adediwura, a passionate web developer and chemistry graduate with a strong drive to create impactful tech solutions. I specialize in building dynamic and responsive websites using HTML, CSS, JavaScript, and frameworks like React.js, Next.js, and Tailwind CSS.
+                            A passionate web developer with a strong drive to create impactful tech solutions. I specialize in building dynamic and responsive websites using HTML, CSS, JavaScript, and frameworks like React.js, Next.js, and Tailwind CSS.
 
                             I’m currently exploring Node.js to enhance my backend development capabilities and expanding my expertise into Flutter, a powerful framework for building beautiful, cross-platform applications. My projects showcase my ability to blend functionality with aesthetics, ensuring a seamless user experience.
 
