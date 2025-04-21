@@ -20,8 +20,19 @@ export const About = () => {
                         </p>
                        
                         <div className="flex flex-row justify-center items-center lg:justify-start gap-4 lg:mt-12 mt-4">
-                            <button className="md:px-6 px-2 md:py-[0.75rem] py-1 md:text-md text-sm outline outline-2 hover:font-semibold rounded-md cursor-pointer text-gray-800 border-gray-800 hover:border-blue-600 dark:text-gray-50 dark:border-gra5800">Download CV</button>
-                            <button className="md:px-6 px-2 md:py-[0.75rem] py-1 md:text-md text-sm rounded-md gradient hover:font-semibold cursor-pointer text-gray-50">Click For Hire Me</button>
+                            <a href="https://docs.google.com/document/d/1CFxuzC_QfOFAVKnBBNh4Ky-lY72DuNK3KBL5azk84LU/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                <button className="md:px-6 px-2 md:py-[0.75rem] py-1 md:text-md text-sm rounded-md outline outline-2 hover:font-semibold cursor-pointer text-gray-800 border-gray-800 hover:border-blue-600 dark:text-gray-50 dark:border-gray-800">
+                                    Download CV
+                                </button>
+                            </a>
+                            <a target="_blank" rel="noopener noreferrer">
+                                <button className="md:px-6 px-2 md:py-[0.75rem] py-1 md:text-md text-sm rounded-md gradient hover:font-semibold cursor-pointer text-gray-50">
+                                    Hire Me
+                                </button>                            
+                            </a>
+                            <a aria-label="Chat on WhatsApp" href="https://wa.me/09072898890" target="_blank" rel="noopener noreferrer">
+                             <img alt="Chat on WhatsApp" src="./images/WhatsAppButtonGreenLarge.svg" />
+                             </a>
                         </div>
                     </Section>
                     <div className=" animate-slideInLeft lg:w-4/5 sm:w-3/5 md:w-1/2 md:min-w-[450px]">
