@@ -67,6 +67,20 @@ export const Projects = () => {
           </a>
           </>
         </Section>
+        {/* Project 5 */}
+        <Section className="bg-white dark:bg-blue-950 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:scale-105" id={'pro4'} animationClass={'animate-slideInLeft'}>
+        <><h3 className="text-xl font-semibold mb-2 text-gray-600 dark:text-gray-50">Aaerobarchi Foundation</h3>
+          <p className="mb-4 text-gray-600 dark:text-gray-50">
+          Built a responsive landing page for a non-profit, featuring animated stats, donation prompts, and a mobile-friendly layout using a HTML, Tailwind CSS and JavaScript.
+          </p>
+          <a
+            href="https://www.aerobarchifoundation.org/" target="_blank" rel="noopener noreferrer"
+            className="text-blue-600 dark:text-blue-500 hover:underline transition-colors duration-300"
+          >
+            View Project →
+          </a>
+          </>
+        </Section>
       </div>
     </section>
   );

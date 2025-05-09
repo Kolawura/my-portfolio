@@ -16,7 +16,7 @@ export const About = () => {
 
                             I’m currently exploring Node.js to enhance my backend development capabilities and expanding my expertise into Flutter, a powerful framework for building beautiful, cross-platform applications. My projects showcase my ability to blend functionality with aesthetics, ensuring a seamless user experience.
 
-                            Beyond coding, I’m committed to learning, problem-solving, and helping others through technology. Whether I’m working on a collaborative project or designing tools to teach programming concepts, my focus is always on innovation and quality.
+                            Beyond coding, I’m committed to learning, problem-solving, and helping others through technology. Whether I’m working on a collaborative project or designing tools to teach programming concepts, my focus is always on innovation and quality. <a href="https://drive.google.com/file/d/1z1RCdzlnN0KfsrcowsweqljIz7RfSz2N/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">learn more &rarr;</a>
                         </p>
                        
                         <div className="flex flex-row justify-center items-center lg:justify-start gap-4 lg:mt-12 mt-4">
@@ -25,17 +25,14 @@ export const About = () => {
                                     Download CV
                                 </button>
                             </a>
-                            <a target="_blank" rel="noopener noreferrer">
-                                <button className="md:px-6 px-2 md:py-[0.75rem] py-1 md:text-md text-sm rounded-md gradient hover:font-semibold cursor-pointer text-gray-50">
-                                    Hire Me
-                                </button>                            
-                            </a>
                             <a aria-label="Chat on WhatsApp" href="https://wa.me/09072898890" target="_blank" rel="noopener noreferrer">
-                             <img alt="Chat on WhatsApp" src="./images/WhatsAppButtonGreenLarge.svg" />
-                             </a>
+                            <button className="md:px-7 px-3 md:py-[0.9rem] py-[1.5rem] md:text-md text-sm rounded-md gradient hover:font-semibold cursor-pointer text-gray-50">
+                                    Hire Me
+                            </button> 
+                            </a>
                         </div>
                     </Section>
-                    <div className=" animate-slideInLeft lg:w-4/5 sm:w-3/5 md:w-1/2 md:min-w-[450px]">
+                    <div className="animate-slideInLeft lg:w-4/5 sm:w-3/5 md:w-1/2 md:min-w-[450px]">
                         <img className="rounded-3xl w-fit shadow-[0_0_30px_10px_rgba(0,0,0,0.1)]" src="./images/mypic.png" alt="" />
                     </div>
                 </div>
