@@ -20,7 +20,7 @@ export const About = () => {
                         </p>
                        
                         <div className="flex flex-row justify-center items-center lg:justify-start gap-4 lg:mt-12 mt-4">
-                            <a href="https://docs.google.com/document/d/1CFxuzC_QfOFAVKnBBNh4Ky-lY72DuNK3KBL5azk84LU/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                            <a href="https://drive.google.com/file/d/1g-Dg2hwA2lK9XoKxMPPidJ8G6E2tKe02/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                                 <button className="md:px-6 px-2 md:py-[0.75rem] py-1 md:text-md text-sm rounded-md outline outline-2 hover:font-semibold cursor-pointer text-gray-800 border-gray-800 hover:border-blue-600 dark:text-gray-50 dark:border-gray-800">
                                     Download CV
                                 </button>
